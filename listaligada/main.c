@@ -76,8 +76,8 @@ int main(int argc, char **argv) {
                 }
                 break;
             case 7:
-                if (primeiro() >= 0) {
-                  printf("Primeiro número da lista é %d", primeiro());
+                if (primeiro(&numero) > 0) {
+                  printf("Primeiro número da lista é %d", numero);
                 }else{
                   printf("Não há elementos na lista\n\n");
                 }

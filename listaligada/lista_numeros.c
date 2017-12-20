@@ -132,7 +132,8 @@ int primeiro(int * numero) {
     if (inicio == NULL) {
       return -1;
     } else{
-        return inicio->numero;
+        numero = inicio->numero;
+        return 1;
       }
         return -1;
     }
